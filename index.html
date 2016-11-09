@@ -1,0 +1,46 @@
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>HueMonitor</title>
+<link rel="SHORTCUT ICON" href="img/yangicon.png">
+
+<head>
+	<!--CSS Stylesheets-->
+	<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/jquery-ui.min.css" />
+
+
+	<!--Libraries Found on the Web-->
+	<script src='js/lib/jquery-2.0.2.min.js'></script>
+	<script src='js/lib/jquery-ui-1.10.1.custom.min.js'></script>
+	<script src='js/lib/jscolor/jscolor.js'></script>
+
+	<script src='js/webcam.js'></script>
+	<script src='js/App.js'></script>
+
+
+</head>
+
+<body>
+
+	<div id="top-wrapper">
+
+		<video id="video" autoplay=""></video>
+                <canvas id="rider-camera-film" class="camera-film" width="1000" height="600"></canvas>
+<canvas id="canvas-sample"></canvas>
+<div class="sampled-hue"></div>
+
+<div id="hue-value"></div>
+												<div class="hue-monitor"></div>
+	</div>
+
+	<script>
+	$(document).ready(function(){
+		App.init();
+	});
+	</script>
+
+</body>
+
+</html>
