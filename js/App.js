@@ -6,6 +6,11 @@ var App = {
     $(".hue-monitor").resizable({
       handles: "n, e, s, w, ne, se, sw, nw "
     });
+    $(".hue-monitor").css({
+      "top": 100,
+      "left": 100,
+      "position": "absolute"
+    });
     App.loop();
   },
 

@@ -25,14 +25,14 @@
 #canvas-sample{
   position: fixed;
   top:0;
-  right:0;
+  right:20px;
   z-index: 99;
 }
 
 .sampled-hue{
   position: fixed;
   top:0;
-  right:0;
+  right:20px;
   z-index: 99;
 }
 
@@ -40,6 +40,6 @@
 
   position: fixed;
   top:0;
-  right:0;
+  right:20px;
   z-index: 99;
 }
