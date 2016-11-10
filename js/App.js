@@ -4,7 +4,17 @@ var App = {
     $(".hue-monitor").draggable();
 
     $(".hue-monitor").resizable({
-      handles: "n, e, s, w, ne, se, sw, nw "
+      handles: {
+      'nw': '#nwgrip',
+      'ne': '#negrip',
+      'sw': '#swgrip',
+      'se': '#segrip',
+      'n': '#ngrip',
+      'e': '#egrip',
+      's': '#sgrip',
+      'w': '#wgrip'
+  }
+    //  handles: "n, e, s, w, ne, se, sw, nw "
     });
     $(".hue-monitor").css({
       "top": 100,

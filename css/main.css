@@ -12,10 +12,11 @@
   left:100px;
   width:100px;
   height:100px;
-  border: 4px solid rgba(0,0,0,0.4);
-  outline: 4px solid rgba(255,255,255,0.4);
-  margin:-4px;
+  border: 2px solid rgba(0,0,0,0.4);
+  outline: 2px solid rgba(255,255,255,0.4);
+  margin:-2px;
   z-index: 10;
+  cursor: move;
 }
 
 #rider-camera-film{
@@ -37,9 +38,52 @@
 }
 
 #hue-value{
-
   position: fixed;
   top:0;
   right:20px;
   z-index: 99;
+}
+
+#nwgrip, #negrip, #swgrip, #segrip, #ngrip, #egrip, #sgrip, #wgrip {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 2px;
+}
+#nwgrip {
+    left: -8px;
+    top: -8px;
+}
+#negrip{
+     top: -8px;
+     right: -8px;
+}
+#swgrip{
+    bottom: -8px;
+    left: -8px;
+}
+#segrip{
+    bottom: -8px;
+    right: -8px;
+}
+#ngrip{
+     top: -8px;
+    left:50%;
+    margin-left: -6px;
+}
+#sgrip{
+     bottom: -8px;
+    left: 50%;
+    margin-left: -6px;
+}
+#wgrip{
+     left:-8px;
+     top:50%;
+    margin-top: -6px;
+}
+#egrip{
+     right:-8px;
+     top:50%;
+    margin-top: -6px;
 }
