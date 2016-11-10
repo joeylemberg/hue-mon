@@ -1,3 +1,7 @@
+body{
+  font-family:helvetica;
+}
+
 #top-wrapper{
   position:fixed;
   top:0;
@@ -26,22 +30,27 @@
 #canvas-sample{
   position: fixed;
   top:0;
-  right:20px;
+  right:40px;
+  margin-top:100px;
   z-index: 99;
+  border: 2px solid #555555;
 }
 
 .sampled-hue{
   position: fixed;
   top:0;
-  right:20px;
+  right:42px;
   z-index: 99;
+  margin-top:104px;
+  outline: 2px solid #555555;
 }
 
 #hue-value{
   position: fixed;
   top:0;
-  right:20px;
+  right:40px;
   z-index: 99;
+  margin-top:100px;
 }
 
 #nwgrip, #negrip, #swgrip, #segrip, #ngrip, #egrip, #sgrip, #wgrip {
@@ -86,4 +95,12 @@
      right:-8px;
      top:50%;
     margin-top: -6px;
+}
+
+#das-foot{
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  width: 80%;
 }
